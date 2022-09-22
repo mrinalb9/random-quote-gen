@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-}
+  justify-content: center;
+  background-color: aquamarine;}
 
 .App-logo {
   height: 40vmin;
@@ -34,5 +35,126 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.text {
+  justify-content: center;
+  text-align: center;
+  margin: 20vh 10vh;
+}
+
+.button{
+  background-color:#4e4444;
+  font-family: "Nabla-Regular";
+  text-transform: uppercase;
+  size: 25vh;
+  font-size: 4.2vh;
+  margin: 0 ;
+  cursor: pointer;
+  border-width: 1.7px;
+  border-color: #ABD9FF;
+  
+  box-shadow: 5px 5px 2px black;
+  -moz-box-shadow: 5px 5px 2px black;
+  -webkit-box-shadow: 5px 5px 2px black;
+}
+
+.button:hover{
+  background-color: #D75281;
+  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
+  transition: 0.4s ease;
+  border-radius: 1.5vh;
+  border-width: 0.7vh;
+  border-color: #937DC2;
+  border-top: 0;
+  border-left: 0;
+
+  transition-timing-function: ease-in;
+  transition-timing-function: cubic-bezier(0,.83,1,.5);
+
+  transition-timing-function: ease-out;
+  transition-timing-function: cubic-bezier(0,.83,1,.5);
+}
+
+.font-face-gm {
+  font-family: "Nabla-Regular";
+}
+
+.quotes {
+  margin-top: 30vh;
+  justify-content: center;
+  text-align: center;
+  animation: forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  font-family: 'Patua One', cursive;
+  font-size: 6vh;
+
+}
+
+/* .slide-in {
+  animation: step-start 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+  100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+  100% { -webkit-transform: translateX(0%); }
+} */
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
   }
 }
